@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fantasia txapelketa="TBD">
+  
+  <taldeak>
+
+    <talde id="T001">
+      <izena>Real Sociedad</izena>
+      <entrenatzailea>Sergio Francisco</entrenatzailea>
+
+      <jokalariak>
+
+        <jokalaria id="P001">
+          <izena_bat>Álex</izena_bat>
+          <abizena>Remiro</abizena>
+          <dortsala>1</dortsala>
+          <posizioa>ATE</posizioa>
+          <nazionalitatea>EUS</nazionalitatea>
+          <jaiotza_data>1995-03-24</jaiotza_data>
+          <fitxaketa_data>2019-07-01</fitxaketa_data>
+        </jokalaria>
+
+        <jokalaria id="P002">
+          <izena_bat>Igor</izena_bat>
+          <abizena>Zubeldia</abizena>
+          <dortsala>5</dortsala>
+          <posizioa>DEF</posizioa>
+          <nazionalitatea>EUS</nazionalitatea>
+          <jaiotza_data>1996-11-11</jaiotza_data>
+          <fitxaketa_data>2016-07-01</fitxaketa_data>
+        </jokalaria>
+
+        <jokalaria id="P003">
+          <izena_bat>Mikel</izena_bat>
+          <abizena>Oyarzabal</abizena>
+          <dortsala>10</dortsala>
+          <posizioa>ATA</posizioa>
+          <nazionalitatea>EUS</nazionalitatea>
+          <jaiotza_data>1997-04-21</jaiotza_data>
+          <fitxaketa_data>2015-10-25</fitxaketa_data>
+        </jokalaria>
+
+      </jokalariak>
+    </talde>
+
+    <talde id="T002">
+      <izena>Athletic Club</izena>
+      <entrenatzailea>Ernesto Valverde</entrenatzailea>
+
+      <jokalariak>
+
+        <jokalaria id="P010">
+          <izena_bat>Iñaki</izena_bat>
+          <abizena>Williams</abizena>
+          <dortsala>9</dortsala>
+          <posizioa>ATA</posizioa>
+          <nazionalitatea>GHA</nazionalitatea>
+          <jaiotza_data>1994-06-15</jaiotza_data>
+          <fitxaketa_data>2014-01-01</fitxaketa_data>
+        </jokalaria>
+
+        <jokalaria id="P011">
+          <izena_bat>Oihan</izena_bat>
+          <abizena>Sancet</abizena>
+          <dortsala>8</dortsala>
+          <posizioa>ERD</posizioa>
+          <nazionalitatea>EUS</nazionalitatea>
+          <jaiotza_data>2000-04-25</jaiotza_data>
+          <fitxaketa_data>2018-07-01</fitxaketa_data>
+        </jokalaria>
+
+      </jokalariak>
+    </talde>
+
+  </taldeak>
+
+
+  <fitxaketak>
+    <fitxaketa data="2025-08-15">
+      <jokalaria_ref>P011</jokalaria_ref>
+      <aurreko_taldea>T002</aurreko_taldea>
+      <helburu_taldea>T001</helburu_taldea>
+    </fitxaketa>
+  </fitxaketak>
+
+
+  <partidak>
+
+    <partida id="M001" data="2025-09-12" estadioa="Reale Arena">
+      <etxeko_taldea>T001</etxeko_taldea>
+      <kanpoko_taldea>T002</kanpoko_taldea>
+
+      <emaitza etxeko="2" kanpoko="1"/>
+
+      <alineazioa taldea="T001">
+        <hasierakoa jokalaria_id="P001"/>
+        <hasierakoa jokalaria_id="P002"/>
+        <hasierakoa jokalaria_id="P003"/>
+      </alineazioa>
+
+      <ordezkapenak>
+        <ordezkapena minutua="63">
+          <sartu jokalaria_id="P003"/>
+          <atera jokalaria_id="P002"/>
+        </ordezkapena>
+      </ordezkapenak>
+
+    </partida>
+
+  </partidak>
+
+</fantasia>
